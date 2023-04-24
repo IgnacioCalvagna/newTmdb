@@ -1,9 +1,9 @@
 {
   "name": "tmdb",
-  "author": "Ignacio Calvagna",  
-  "main": "index.js" ,
+  "author": "Ignacio Calvagna",
+  "main": "index.js",
   "engines": {
-    "node": "16.14.2", 
+    "node": "16.14.2",
     "npm": "8.5.0"
   },
   "version": "0.1.0",
@@ -13,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.1.2",
+    "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
