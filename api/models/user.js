@@ -35,6 +35,9 @@ User.init(
     modelName: "users",
   }
 
+  
+  );
+  
   User.addHook("beforeCreate", (user) => {
     return bcrypt
       .genSalt(16)
@@ -46,7 +49,4 @@ User.init(
         user.password = hash;
       });
   })
-
-);
-
 module.exports = User;
